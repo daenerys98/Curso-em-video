@@ -1,0 +1,11 @@
+N1 = int(input('Me informe um número: '))
+N2 = int(input('Agora o número que deseja fazer operações com o primeiro número pedido: '))
+
+s = N1 + N2
+d = N1 / N2
+m = N1 * N2
+di = N1 // N2
+e = N1 ** N2
+
+print('A soma dos dois números é {}, a divisão é {:.3f} a múltiplicação {}'. format (s, d, m), end=' ')
+print('a divisão inteira é {} e a exponenciação dos números são {}.'.format(di, e))
